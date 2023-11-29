@@ -21,7 +21,7 @@ deploying Odoo in Docker on an AWS EC2 instance
 Connect to your EC2 instance and execute the following commands:
 
 ### Using apt (for Ubuntu):
-```
+
 Check if the system is up-to-date
 ```
 sudo apt update
@@ -29,6 +29,15 @@ sudo apt update
 Install Docker
 ```
 sudo apt install docker.io
+```
+Install all the dependency packages
+```
+sudo snap install docker
+```
+
+check the docker version 
+```
+docker --version
 ```
 
 
