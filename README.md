@@ -22,7 +22,7 @@ Connect to your EC2 instance and execute the following commands:
 
 ### Using apt (for Ubuntu):
 
-```bash
+```
 sudo apt update
 sudo apt install docker.io
 ```
